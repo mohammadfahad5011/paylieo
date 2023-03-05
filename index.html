@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ---fontawsome--- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- bootstrap link  -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+    <!-- ----swiper-slider---- -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- ---- vanobox------  -->
+    <link rel="stylesheet" href="./assets/css/venobox.min.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- ------- mobile_menu -----  -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-e2Xn5H5nYmC3yqPHggL93pzo1nMN/5iJ53/JSx8M/zX9NxnzY/g2aGdksrGwNk01FvgyOaQ36ad7z4C1sD9txA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/moble_menu.css"> -->
+
+    <!-- title  -->
+    <title>payolie</title>
+  </head>
+  <body>
+    <header class="header_section">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><div class="logo">
+              <img
+                src="./assets/image/brand_log.png"
+                alt="Logo"
+                class="img-fluid"
+              /></div
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="ms-auto navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link nav_btn">Join Beta</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- <header class="header_section">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <div class="logo">
+              <img src="./assets/image/brand_log.png" alt="Logo" class="img-fluid" />
+            </div>
+          </a>
+          <button class="navbar-toggler mobile-menu-button" type="button" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="ms-auto navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link nav_btn">Join Beta</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header> -->
+    <main>
+      <!-- --------- hero-secton ---  -->
+      <section class="hero_section">
+        <div class="max_container">
+          <div class="container">
+            <div class="hero_info">
+              <h1 class="hero_title">Odio sit ornare sed nisi.</h1>
+              <p class="hero_para">Accumsan nunc nullam est est volutpat aliquet ac. Etiam gravida tellus iaculis nulla tellus aliquam habitant velit. Duis.</p>
+              <div class="hero_subscribe">
+                <input type="text" class="hero_input" placeholder="Enter email address">
+                <button class="hero_btn">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ------ video-section ---- -->
+      <section class="video_section">
+        <div class="container">
+          <div class="video_img">
+            <img src="./assets/image/Vedio (1).png" class="img-fluid" alt="">
+            <div class="video_play">
+              <a
+                class="video-btn venobox_custom"
+                data-gall="gall-video"
+                data-autoplay="true"
+                data-vbtype="video"
+                href="https://youtu.be/V9jl14sGl0s"
+              >
+                <span><i class="fas fa-play"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ------ testimonial-section -----  -->
+      <section class="testimonial_section" id="testimonial_section">
+        <div class="max_container">
+          <div class="container">
+            <div class="pb-5">
+              <h3 class="section_header">TESTIMONIALS</h3>
+              <h2 class="section_title text-center">
+                Customer said about <br />
+                Coca Plartform
+              </h2>
+            </div>
+          </div>
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="single_testimonial">
+                  <div class="author_info">
+                    <div class="author_img">
+                      <img
+                        src="./assets/image/test-avater.png"
+                        alt="avater"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="author_text">
+                      <h3 class="author_name">Savannah Nguyen</h3>
+                      <p class="author_des">CEO Sans Brothers</p>
+                    </div>
+                  </div>
+                  <div class="author_para">
+                    It was a pleasure working with the Coca team. They
+                    understood the brief correctly and delivered great designs
+                    exceeding the expectations.
+                  </div>
+                  <div class="ratting">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="single_testimonial">
+                  <div class="author_info">
+                    <div class="author_img">
+                      <img
+                        src="./assets/image/test-avater.png"
+                        alt="avater"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="author_text">
+                      <h3 class="author_name">Savannah Nguyen</h3>
+                      <p class="author_des">CEO Sans Brothers</p>
+                    </div>
+                  </div>
+                  <div class="author_para">
+                    It was a pleasure working with the Coca team. They
+                    understood the brief correctly and delivered great designs
+                    exceeding the expectations.
+                  </div>
+                  <div class="ratting">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="single_testimonial">
+                  <div class="author_info">
+                    <div class="author_img">
+                      <img
+                        src="./assets/image/test-avater.png"
+                        alt="avater"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="author_text">
+                      <h3 class="author_name">Savannah Nguyen</h3>
+                      <p class="author_des">CEO Sans Brothers</p>
+                    </div>
+                  </div>
+                  <div class="author_para">
+                    It was a pleasure working with the Coca team. They
+                    understood the brief correctly and delivered great designs
+                    exceeding the expectations.
+                  </div>
+                  <div class="ratting">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="single_testimonial">
+                  <div class="author_info">
+                    <div class="author_img">
+                      <img
+                        src="./assets/image/test-avater.png"
+                        alt="avater"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="author_text">
+                      <h3 class="author_name">Savannah Nguyen</h3>
+                      <p class="author_des">CEO Sans Brothers</p>
+                    </div>
+                  </div>
+                  <div class="author_para">
+                    It was a pleasure working with the Coca team. They
+                    understood the brief correctly and delivered great designs
+                    exceeding the expectations.
+                  </div>
+                  <div class="ratting">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="single_testimonial">
+                  <div class="author_info">
+                    <div class="author_img">
+                      <img
+                        src="./assets/image/test-avater.png"
+                        alt="avater"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="author_text">
+                      <h3 class="author_name">Savannah Nguyen</h3>
+                      <p class="author_des">CEO Sans Brothers</p>
+                    </div>
+                  </div>
+                  <div class="author_para">
+                    It was a pleasure working with the Coca team. They
+                    understood the brief correctly and delivered great designs
+                    exceeding the expectations.
+                  </div>
+                  <div class="ratting">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="single_testimonial">
+                  <div class="author_info">
+                    <div class="author_img">
+                      <img
+                        src="./assets/image/test-avater.png"
+                        alt="avater"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="author_text">
+                      <h3 class="author_name">Savannah Nguyen</h3>
+                      <p class="author_des">CEO Sans Brothers</p>
+                    </div>
+                  </div>
+                  <div class="author_para">
+                    It was a pleasure working with the Coca team. They
+                    understood the brief correctly and delivered great designs
+                    exceeding the expectations.
+                  </div>
+                  <div class="ratting">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- features of payolie start -->
+      <section id="features_payolie">
+        <div class="container pt-5">
+          <div class="row feature_head">
+            <div class="col-12">
+              <div class="section_title">Features of Payolie</div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- single feature 1  -->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+              <div class="single_features">
+                <div class="single_features__icon">
+                  <img src="./assets/image/icon-1.png" alt="" />
+                </div>
+                <div class="single_features__content">
+                  <h2>Increased Exposure</h2>
+                  <p>Increased exposure to new audiences.</p>
+                </div>
+              </div>
+            </div>
+            <!-- single feature 2  -->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+              <div class="single_features">
+                <div class="single_features__icon">
+                  <img src="./assets/image/icon-2.png" alt="" />
+                </div>
+                <div class="single_features__content">
+                  <h2>Simplified Booking Process</h2>
+                  <p>Streamlined event planning made simple.</p>
+                </div>
+              </div>
+            </div>
+            <!-- single feature 3  -->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+              <div class="single_features">
+                <div class="single_features__icon">
+                  <img src="./assets/image/icon-3.png" alt="" />
+                </div>
+                <div class="single_features__content">
+                  <h2>Payment Processing</h2>
+                  <p>Timely, secure payment processing.</p>
+                </div>
+              </div>
+            </div>
+            <!-- single feature 4 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+              <div class="single_features">
+                <div class="single_features__icon">
+                  <img src="./assets/image/icon-4.png" alt="" />
+                </div>
+                <div class="single_features__content">
+                  <h2>Travel Accommodations</h2>
+                  <p>Convenient, stress-free travel for artists.</p>
+                </div>
+              </div>
+            </div>
+            <!-- single feature 5  -->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+              <div class="single_features">
+                <div class="single_features__icon">
+                  <img src="./assets/image/icon-5.png" alt="" />
+                </div>
+                <div class="single_features__content">
+                  <h2>Real-Time Feedback</h2>
+                  <p>Improve performances, increase bookings.</p>
+                </div>
+              </div>
+            </div>
+            <!-- single feature 6  -->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+              <div class="single_features">
+                <div class="single_features__icon">
+                  <img src="./assets/image/icon-6.png" alt="" />
+                </div>
+                <div class="single_features__content">
+                  <h2>Additional Services</h2>
+                  <p>Enhance artist revenue and brand image.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- features of payolie end -->
+            <!-- About Us section start -->
+      <section id="about-us">
+        <div class="container py-5">
+          <div class="row align-items-center">
+            <div class="col-lg-5 col-md-7 col-sm-12">
+              <div class="about_payolie__img">
+                <img src="./assets/image/about-us.png" alt="about-image" />
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-5 col-sm-12">
+              <div class="about_payolie__content">
+                <div class="section_header">About us</div>
+                <div class="section_title">
+                  Faucibus iaculis eget tristique ac et. Nunc.
+                </div>
+                <p>
+                  Elementum odio tellus morbi enim nulla egestas. Purus nunc
+                  praesent convallis aliquet. Lectus amet amet nunc viverra
+                  morbi morbi neque tincidunt. Orci sed diam condimentum ac cras
+                  tellus pulvinar. Mauris aliquet risus cursus arcu commodo
+                  pharetra purus. In pharetra et orci convallis pulvinar risus
+                </p>
+                <div class="row">
+                  <div class="col-4">
+                    <div class="single_count">
+                      <div class="section_title">4.5k+</div>
+                      <p>Lacus sagittis m</p>
+                    </div>
+                  </div>
+
+                  <div class="col-4">
+                    <div class="single_count">
+                      <div class="section_title">1.5k+</div>
+                      <p>Tincidunt elit lectus</p>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="single_count">
+                      <div class="section_title">1000+</div>
+                      <p>Pretium morbi at</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Us section end -->
+
+      <!-- Our Partner section start -->
+      <section id="partner_payolie" class="partner_section">
+        <div class="container py-5 mt-5 sm_partner_responsive">
+          <div class="row text-center mb-5">
+            <div class="col-12">
+              <div class="section_header">Our Partners</div>
+            </div>
+          </div>
+          <div class="row justify-content-between align-items-center">
+            <div class=" col-sm-2 col-12">
+              <div class="image-with-overlay">
+                <img src="./assets/image/Airbnb.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-sm-2 col-12">
+              <div class="image-with-overlay">
+                <img src="./assets/image/Google.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-sm-2 col-12">
+              <div class="image-with-overlay">
+                <img
+                  src="./assets/image/Microsoft.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="col-sm-2 col-12">
+              <div class="image-with-overlay">
+                <img
+                  src="./assets/image/Walmart.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="col-sm-2 col-12">
+              <div class="image-with-overlay sm_responsive_img_with_overlay">
+                <img src="./assets/image/Amazon.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our Partner section end -->
+
+      <!-- Press Release section start -->
+      <section class="press_section mt-4" id="press_section">
+        <div class="container">
+          <div class="row justify-content-between press_top">
+            <div class="col-lg-4 col-md-5">
+              <div class="section_title">Read our latest press release</div>
+            </div>
+            <div class="col-lg-5 col-md-6">
+              <p class="press_section_p">
+                Adipiscing pulvinar diam viverra quis bibendum ultricies risus
+                et blandit. A turpis viverra.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col-md-4 col-sm-6">
+              <div class="press_section_content">
+                <div class="press_section_img">
+                  <img src="./assets/image/release-1.png" alt="" />
+                </div>
+                <div class="press_section_overlay">
+                  <p>Are Coworking Spaces Right for You?</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="press_section_content">
+                <div class="press_section_img">
+                  <img src="./assets/image/release-2.png" alt="" />
+                </div>
+                <div class="press_section_overlay">
+                  <p>The Benefits of Coworking Spaces for Small Businesses</p>
+                </div>
+              </div>
+            </div>
+            <div class=" col-md-4 col-sm-6">
+              <div class="press_section_content ">
+                <div class="press_section_img last_press_img">
+                  <img src="./assets/image/release-3.png" class="" alt="" />
+                </div>
+                <div class="press_section_overlay">
+                  <p>How to Find the Best Coworking Spaces for You</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Press Release section end -->
+      <!-- -----Instagram-section-----  -->
+      <section class="instagram_section" id="instagram_section">
+        <div class="max_container">
+          <div class="container">
+            <div >
+              <h2 class="section_title text-center pb-5">Follow us on instagram</h2>
+            </div>
+          </div>
+          <div class="swiper instaSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="single_insta">
+                  <img src="./assets/image/Frame 12.png" class="img-fluid" alt="">
+                  <div class="icon-overlay"> <a href=""> <img src="./assets/image/insta-icon.png" alt=""> </a> </div>
+                </div>
+              </div>
+              <div class="swiper-slide"><div class="single_insta">
+                <img src="./assets/image/Frame 13.png" class="img-fluid" alt="">
+                  <div class="icon-overlay"> <a href=""> <img src="./assets/image/insta-icon.png" alt=""> </a> </div>
+              </div></div>
+              <div class="swiper-slide"><div class="single_insta">
+                <img src="./assets/image/Frame 14.png" class="img-fluid" alt="">
+                 <div class="icon-overlay"> <a href=""> <img src="./assets/image/insta-icon.png" alt=""> </a> </div>
+              </div></div>
+              <div class="swiper-slide"><div class="single_insta">
+                <img src="./assets/image/Rectangle 30.png" class="img-fluid" alt="">
+                  <div class="icon-overlay"> <a href=""> <img src="./assets/image/insta-icon.png" alt=""> </a> </div>
+              </div></div>
+              <div class="swiper-slide"><div class="single_insta">
+                <img src="./assets/image/Frame 16.png" class="img-fluid" alt="">
+                  <div class="icon-overlay"> <a href=""> <img src="./assets/image/insta-icon.png" alt=""> </a> </div>
+              </div></div>
+              <div class="swiper-slide"><div class="single_insta">
+                <img src="./assets/image/Frame 17.png" class="img-fluid" alt="">
+                   <div class="icon-overlay"> <a href=""> <img src="./assets/image/insta-icon.png" alt=""> </a> </div>
+              </div></div>
+              <div class="swiper-slide"><div class="single_insta">
+                <img src="./assets/image/Frame 13.png" class="img-fluid" alt="">
+                   <div class="icon-overlay"> <a href=""> <img src="./assets/image/insta-icon.png" alt=""> </a> </div>
+              </div></div>
+              <div class="swiper-slide"><div class="single_insta">
+                <img src="./assets/image/Frame 14.png" class="img-fluid" alt="">
+                    <div class="icon-overlay"> <a href=""> <img src="./assets/image/insta-icon.png" alt=""> </a> </div>
+              </div></div>
+              <div class="swiper-slide"><div class="single_insta">
+                <img src="./assets/image/Rectangle 30.png" class="img-fluid" alt="">
+                    <div class="icon-overlay"> <a href=""> <img src="./assets/image/insta-icon.png" alt=""> </a> </div>
+              </div></div>
+              <div class="swiper-slide"><div class="single_insta">
+                <img src="./assets/image/Frame 16.png" class="img-fluid" alt="">
+                    <div class="icon-overlay"> <a href=""> <img src="./assets/image/insta-icon.png" alt=""> </a> </div>
+              </div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------ FAQ-section -----  -->
+      <section class="faq-section">
+        <div class="container">
+          <h3 class="faq-title pb-4">F.A.Q.</h3>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <img
+                    src="./assets/image/qustionMark.png"
+                    alt=""
+                    class="img-fluid me-4"
+                  />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem alias libero. Quasi, quo tempore. Laborum velit, eligendi ad ipsum voluptatibus iure quod culpa consectetur ipsa, vitae ipsam explicabo consequatur recusandae magnam quas qui itaque! Perferendis accusantium hic eum labore repellendus natus similique ad quia rerum laboriosam animi, exercitationem rem cupiditate quo, mollitia necessitatibus quaerat voluptatem at excepturi nihil quae vero! Aperiam non, eaque inventore error porro, tempore quis esse odio ipsa distinctio minus sed consequatur exercitationem! Recusandae consequatur quo pariatur harum eveniet totam consequuntur praesentium rerum atque aut at est reprehenderit soluta fuga magni odio explicabo, id, perferendis consectetur?
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <img
+                    src="./assets/image/qustionMark.png"
+                    alt=""
+                    class="img-fluid me-4"
+                  />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aliquid nisi officiis consequatur impedit doloribus voluptas delectus reiciendis deserunt perferendis fuga, eveniet saepe recusandae soluta consectetur accusantium? Aspernatur vitae saepe porro. Atque molestiae quod ipsa consectetur nam ex placeat nobis quisquam, laboriosam obcaecati voluptas eum quidem necessitatibus magnam officia vero commodi odit dolore a rem quam? Distinctio nulla quaerat iusto, doloremque corporis velit perspiciatis rerum, iure debitis ex libero maiores officiis sapiente, fugit tempore laborum eveniet! Iure corrupti animi explicabo.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <img
+                  src="./assets/image/qustionMark.png"
+                  alt=""
+                  class="img-fluid me-4"
+                />
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi blanditiis error dolores illum minima doloremque odit, corrupti facere asperiores voluptates debitis dolor quos. Rerum fugiat sequi quisquam illo recusandae corporis culpa deserunt dolor, nesciunt quidem autem voluptatem eius eveniet nostrum illum ducimus porro. Deleniti dignissimos explicabo culpa impedit minima qui optio quisquam nam nihil! Dicta, neque accusamus laboriosam corrupti magnam ipsum asperiores dolorem distinctio minus ipsam architecto suscipit tempora nisi? Labore consectetur assumenda quia sapiente quam nulla fugiat provident quibusdam quae magni nam odio laborum quaerat, tempora doloribus, optio unde.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <img
+                  src="./assets/image/qustionMark.png"
+                  alt=""
+                  class="img-fluid me-4"
+                />
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim sapiente deserunt ullam nihil sint repellat atque unde tempora accusantium soluta iste nobis quibusdam quod maxime iusto autem nisi, asperiores omnis mollitia accusamus cumque? Exercitationem quae, velit blanditiis ipsam repellendus molestiae perspiciatis! Saepe iusto aut deleniti officiis cumque velit quod harum, nam, quam sapiente explicabo cupiditate veniam? Ab incidunt quae omnis illo minus itaque nam voluptates facere? Doloribus quod distinctio, dolores quam debitis voluptatum facere perspiciatis pariatur. Minima quasi illo temporibus!
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer section start -->
+    <footer class="footer" id="footer">
+      <div class="max_container footer-bg">
+        <div class="container footer_container">
+          <div class="row p-75">
+            <div class="col-lg-6 col-md-5 col-sm-12">
+              <div class="footer_left_content">
+                <div class="footer_logo">
+                  <img src="./assets/image/Payolie Logo.png" alt="" />
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                  feugiat varius eros, dignissim tristique nunc mollis et.
+                  Vivamus aliquet ultricies ante.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-5 sm_responsive">
+              <div class="footer_header">
+                <h2>Events</h2>
+              </div>
+              <div class="footer_middle_list">
+                <ul>
+                  <li>Rap music events</li>
+                  <li>Pop music events</li>
+                  <li>Jazz music events</li>
+                  <li>Rock music events</li>
+                  <li>Rock music events</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-7 sm_responsive sm_responsive__right" id="last" >
+                  <div class="footer_header">
+                    <h2>Contact</h2>
+                  </div>
+                  <div class="footer_icons">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-instagram"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#"> <i class="fa-brands fa-facebook"></i> </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-twitter"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="footer_right_content">
+                    <ul>
+                      <li>
+                        <a href="#"> support@payolie.com </a>
+                      </li>
+                      <li>+1 456 78945622</li>
+                      <li>
+                        4501 ROUND TOP DR LOS ANGELES CA 90065-4929 United States
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+          </div>
+
+          <!-- bottom footer part  -->
+          <div class="row">
+            <div class="col-12">
+              <div class="footer_content_bottom_part">
+                <p>
+                  Copyright 2023 <a href="#"><span>Payolie.com</span></a>
+                </p>
+                <span class="divider"></span>
+                <p>
+                  Design with <a href="#"> by <span> Yaakoub El Hbari</span></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section end -->
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <!-- ------swiper-js----- -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- --------bootstrap-js----- -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- ------ vonobox js ----  -->
+    <script src="./assets/js/venobox.min.js"></script>
+    <!-- ------- mobile_menu ---------------------- -->
+    <!-- <script src="./assets/js/mobile_menu.js"></script> -->
+    <!-- -----custom-js---- -->
+    <script src="./assets/js/index.js"></script>
+     <script>
+        function removeMsAutoOnSmallScreens() {
+          if (window.innerWidth <= 972) {
+            document.getElementById("last").classList.remove("ms-auto");
+          } else {
+            document.getElementById("last").classList.add("ms-auto");
+          }
+        }
+      
+        // Call the function when the page is loaded
+        removeMsAutoOnSmallScreens();
+      
+        // Call the function whenever the window is resized
+        window.addEventListener("resize", removeMsAutoOnSmallScreens);
+      </script>
+  </body>
+</html>

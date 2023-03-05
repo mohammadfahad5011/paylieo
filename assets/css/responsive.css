@@ -1,0 +1,189 @@
+/* 972 px to 768 px responsive  */
+
+@media screen and (min-width: 768px) and (max-width: 972px) {
+  .about_payolie__content {
+    padding-left: 0;
+  }
+
+  .single_count {
+    align-items: start;
+  }
+
+  .single_count p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .about_payolie__content p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  #about-us .section_title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .press_section_overlay p {
+    font-size: 14px;
+  }
+
+  .press_section_overlay {
+    bottom: 20px;
+    left: 20px;
+    border-radius: 12px;
+    padding: 18px 22px 24px 25px;
+    max-width: 250px;
+    width: 100%;
+  }
+
+  .partner_section {
+    margin-bottom: 120px;
+  }
+}
+
+/*  768 px to under responsive  */
+
+@media screen and (max-width: 768px) {
+  .about_payolie__content {
+    padding-left: 0;
+    text-align: center;
+  }
+  .about_payolie__img {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .about_payolie__img img {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  #features_payolie {
+    margin-bottom: 50px;
+  }
+  .partner_section {
+    margin-bottom: 106px;
+  }
+  .press_section_img {
+    margin-bottom: 50px;
+  }
+
+  .last_press_img {
+    margin-bottom: 0;
+  }
+  .about_payolie__content{
+    text-align: left;
+  }
+  .press_section_overlay {
+    left: 10px;
+    max-width: 200px;
+    width: 100%;
+  }
+  .press_section_overlay p {
+    font-size: 14px;
+  }
+
+  .single_count p{
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .press_top {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .press_section .section_title {
+    line-height: 34px;
+    margin-bottom: 20px;
+  }
+
+  .footer_left_content {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .footer_left_content p {
+    max-width: 100%;
+  }
+  .sm_responsive {
+    text-align: center;
+  }
+
+  .sm_responsive__right {
+    padding: 0 20px;
+  }
+
+  .footer_icons {
+    padding: 10px 0;
+  }
+  .footer_icons ul {
+    padding: 20px 0;
+    justify-content: center;
+  }
+}
+
+/*  768 px to under responsive  */
+
+@media screen and (max-width: 575px) {
+  /* features of payolie start  */
+  #features_payolie {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .single_features__content p {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .about_payolie__content{
+    text-align: center;
+  }
+
+  .sm_partner_responsive {
+    padding-top: 0 !important;
+  }
+
+  .image-with-overlay img {
+    max-width: 180px;
+    width: 100%;
+  }
+
+  .image-with-overlay {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .partner_section {
+    margin-bottom: 50px;
+  }
+  .sm_responsive_img_with_overlay {
+    margin-bottom: 0;
+  }
+
+  .press_section_content{
+    text-align: center;
+  }
+
+  .single_count p{
+    text-align: center;
+  }
+
+  .press_section_overlay{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer_content_bottom_part{
+    flex-direction: column;
+  }
+
+  .footer_content_bottom_part p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .divider{
+    margin: 10px 0;
+  }
+}

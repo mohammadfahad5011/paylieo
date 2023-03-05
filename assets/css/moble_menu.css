@@ -1,0 +1,51 @@
+@media (max-width: 991px) {
+  .navbar-nav {
+    /* display: none; */
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobile-menu-button {
+    /* display: none; */
+    display: block;
+  }
+}
+
+.mobile-menu-button {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.mobile-menu-button span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: #333;
+}
+
+.navbar-nav.show {
+  display: block;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav.show li {
+  margin-bottom: 10px;
+}
+
+.navbar-nav.show a {
+  display: block;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
